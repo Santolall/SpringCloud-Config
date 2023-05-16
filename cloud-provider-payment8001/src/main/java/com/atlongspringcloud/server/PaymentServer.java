@@ -1,6 +1,6 @@
-package com.atlong.SpringCloud.server;
+package com.atlongspringcloud.server;
 
-import com.atlong.SpringCloud.entities.Payment;
+import com.atlong.springcloud.entities.Payment;
 import org.apache.ibatis.annotations.Param;
 
 public interface PaymentServer {

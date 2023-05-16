@@ -1,8 +1,8 @@
-package com.atlong.SpringCloud.server.impl;
+package com.atlongspringcloud.server.impl;
 
-import com.atlong.SpringCloud.dao.PaymentDao;
-import com.atlong.SpringCloud.entities.Payment;
-import com.atlong.SpringCloud.server.PaymentServer;
+import com.atlong.springcloud.entities.Payment;
+import com.atlongspringcloud.dao.PaymentDao;
+import com.atlongspringcloud.server.PaymentServer;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

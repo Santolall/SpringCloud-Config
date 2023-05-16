@@ -1,6 +1,6 @@
-package com.atlong.SpringCloud.dao;
+package com.atlongspringcloud.dao;
 
-import com.atlong.SpringCloud.entities.Payment;
+import com.atlong.springcloud.entities.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

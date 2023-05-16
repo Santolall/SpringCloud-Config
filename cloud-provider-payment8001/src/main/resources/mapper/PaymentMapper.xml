@@ -3,8 +3,8 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.atlong.SpringCloud.dao.PaymentDao">
-    <resultMap id="BaseResultMap" type="com.atlong.SpringCloud.entities.Payment">
+<mapper namespace="com.atlongspringcloud.dao.PaymentDao">
+    <resultMap id="BaseResultMap" type="com.atlong.springcloud.entities.Payment">
         <id column="id" property="id" jdbcType="BIGINT"/>
         <id column="serial" property="serial" jdbcType="VARCHAR"/>
     </resultMap>
