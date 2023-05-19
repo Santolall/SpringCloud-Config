@@ -12,6 +12,11 @@
     <artifactId>cloud-provider-payment8001</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <version>4.0.0</version>
+        </dependency>
         <dependency><!-- 引入自己定义的api通用包，可以使用Payment支付Entity -->
             <groupId>com.atlong.cloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
@@ -61,5 +66,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 </project>
+
